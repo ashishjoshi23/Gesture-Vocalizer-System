@@ -1,0 +1,24 @@
+# Gesture Vocalizer System - Project Summary
+
+## Overview
+A smart glove-based system that translates hand gestures into text and speech in real-time, designed to assist deaf and mute individuals.
+
+## Key Features
+- Word-level gesture recognition using Arduino and sensors
+- Fingerspelling ASL recognition using CNN
+- Real-time text and speech output
+- Autocorrect feature using Hunspell
+
+## Results
+- Accuracy: 93%
+- Precision: 95.19%
+- Recall: 93.1%
+- F1 Score: 94.08%
+
+## Team
+- Anikate Verma
+- Arghyadeep Ghosh
+- Ashish Joshi
+
+## Guide
+Dr. Astha Sharma
