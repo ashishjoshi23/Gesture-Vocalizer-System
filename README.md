@@ -28,6 +28,29 @@ Dr. Astha Sharma
 Associate Professor, Dept. of ECE
 G.L. Bajaj Institute of Technology and Management
 
+## 📦 Installation & Setup
+
+### Hardware Setup
+1. Connect flex sensors to Arduino analog pins A0-A4
+2. Connect MPU6050: SDA→A4, SCL→A5
+3. Connect HC-05: TX→RX, RX→TX
+4. Upload `arduino/GestureVocalizer.ino` to Arduino
+
+## Software Setup
+
+# Clone repository
+git clone https://github.com/ashishjoshi23/Gesture-Vocalizer-System.git
+cd Gesture-Vocalizer-System
+
+# Install dependencies
+pip install -r python/requirements.txt
+
+# Run data collection (for training)
+python python/data_collection.py
+
+# Run main application
+python python/sign_language_app.py
+
 ## References
 Project Report (KEC-851), Academic Session 2021-22
 
