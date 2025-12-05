@@ -1,7 +1,4 @@
-/**********
-    scl---A5
-    sda---A4
-**********/
+
 
 #include <Wire.h>
 #include <MPU6050.h>
